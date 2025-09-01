@@ -1,10 +1,6 @@
-# 👋 Clase 1
+# 👋 Clase 1: HelloWorld
 
----
-
-## Ejercicio 1: HelloWorld con Aptugo
-
-Este proyecto fue generado con **Aptugo** y adaptado para quedar auto-contenido en este repositorio.
+Este proyecto es la base del curso: una aplicación mínima con **front-end en React** y **back-end en Express + MongoDB**.
 
 Incluye:
 - Código fuente listo para modificar.
@@ -13,19 +9,12 @@ Incluye:
 
 ---
 
-## ⚙️ Requisitos previos
+## ⚙️ Requisitos
 
-Antes de ejecutar este proyecto, asegurate de tener instalado:
 - [Node.js](https://nodejs.org/) 18+
 - [MongoDB Community Server](https://www.mongodb.com/try/download/community) (6.0+)
 - [MongoDB Database Tools](https://www.mongodb.com/try/download/database-tools)  
   (necesario para `mongodump` y `mongorestore`)
-- pnpm (gestor de paquetes)
-- [Visual Studio Code](https://code.visualstudio.com/download) (opcional, recomendado)  
-
-
-👉 Para más detalles podés seguir la [Guía de Instalación oficial](../Guía%20de%20Instalación%20Aptugo%20Windows.pdf).
-
 
 ### Instalación de Database Tools en Windows
 1. Descargar el `.zip` desde [este link](https://www.mongodb.com/try/download/database-tools).  
@@ -57,13 +46,13 @@ npm install
 cd back-end && npm install
 ```
 
-2. Importar la base de datos incluida (desde la carpeta **back-end**): 
+2. Importar la base de datos incluida:
 
 ```bash
-npm run import-db 
+npm run import-db
 ```
 
-1. Iniciar el proyecto (desde la carpeta base del proyecto):
+3. Iniciar el proyecto:
 
 ```bash
 npm start
@@ -79,14 +68,19 @@ http://localhost:8080
 
 ### 🔹 Opción 2: Automática (recomendada)
 
-* **Windows**: ejecutar `setup.bat` con doble click.
-* **Linux / Mac**: ejecutar en la terminal:
+* En **Windows**:
 
 ```bash
-sh setup.sh
+setup.bat
 ```
 
-👉 **Ambos scripts hacen lo mismo:** instalan dependencias, verifican las Database Tools, restauran la base de datos y levantan el proyecto de forma automática.
+* En **Linux / Mac**:
+
+```bash
+./setup.sh
+```
+
+Los scripts verifican las Database Tools y levantan el proyecto de forma automática.
 
 ---
 
@@ -110,12 +104,5 @@ HelloWorld/
 ├── setup.sh         # Instalación y ejecución automática en Linux/Mac
 └── README.md        # este archivo
 ```
-
----
-
-## 📚 Material de referencia
-
-- [Guía de Estudio – Unidad Intro](../Unidad%20Intro%20y%20Aptugo%20-%20Guía%20de%20Estudio%20-%20Programación%20Web%20-%20App.pdf)
-- [Guía de Instalación Aptugo Windows](../Guía%20de%20Instalación%20Aptugo%20Windows.pdf)
 
 ---
