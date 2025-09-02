@@ -46,15 +46,14 @@ C:\Program Files\MongoDB\Tools\100\bin\mongorestore.exe
 
 ### ¡Listo! Ya podés usar los scripts:
 
-- **En Windows:** 
 ```bash
-npm run export-db-win 
+npm run export-db 
 ```
 
 y
 
 ```bash
-npm run import-db-win
+npm run import-db
 ```
 
 ---
@@ -72,10 +71,11 @@ cd back-end && npm install
 2. Importar la base de datos incluida (desde la carpeta **back-end**): 
 
 ```bash
-npm run export-db-win
+npm run export-db
 ```
+  ⚠️ Si aún no hay dump en `db_dumps/`, este paso dará error.
 
-1. Iniciar el proyecto (desde la carpeta base del proyecto):
+3. Iniciar el proyecto (desde la carpeta base del proyecto):
 
 ```bash
 npm start

@@ -13,25 +13,19 @@ Cada clase incluye:
 ## 🚀 Requisitos previos
 
 Antes de clonar este repositorio asegurate de tener instalado:
+
 - [Node.js](https://nodejs.org/) (versión recomendada: 18+)
-- [MongoDB Community Server](https://www.mongodb.com/try/download/community) (6.0+)
-- [MongoDB Database Tools](https://www.mongodb.com/try/download/database-tools)  
 - pnpm (gestor de paquetes)  
 - [Visual Studio Code](https://code.visualstudio.com/download) (opcional, recomendado)  
+- [MongoDB Community Server](https://www.mongodb.com/try/download/community) (6.0+)
+- [MongoDB Database Tools](https://www.mongodb.com/try/download/database-tools)
+   En Windows, copiá la carpeta `bin` del zip descargado a:  
+   ```
+   C:\Program Files\MongoDB\Tools\100\\
+   ```
 
 👉 Para detalles de instalación ver:  
 - [Guía de Instalación Aptugo Windows](./clase%201/Guía%20de%20Instalación%20Aptugo%20Windows.pdf)  
-
----
-
-## ⚙️ Requisitos Generales
-
-Antes de clonar este repositorio asegurate de tener instalado:
-
-- [Node.js](https://nodejs.org/) (versión recomendada: 18+)
-- [MongoDB Community Server](https://www.mongodb.com/try/download/community) (6.0+)
-- [MongoDB Database Tools](https://www.mongodb.com/try/download/database-tools)  
-  (necesario para `mongodump` y `mongorestore`)
 
 ---
 
@@ -51,7 +45,7 @@ cd clase_1/HelloWorld
 
 3. Seguir las instrucciones específicas en el `README.md` de esa clase.
    Allí encontrarás cómo instalar dependencias, restaurar la base de datos y levantar el proyecto.
-   Cada clase tiene scripts `export-db` y `import-db` en `package.json` para manejar la base de datos.
+   Cada clase tiene scripts `export-db` y `import-db` en `package.json` de la carpeta `back-end` para manejar la base de datos.
 
 4. _(Opcional en Windows)_ Ejecutar `setup.bat` dentro de la clase para instalar, restaurar DB y arrancar automáticamente.
 
@@ -87,6 +81,7 @@ curso-aplicaciones-web/
 ├── .gitignore
 └── README.md  # este archivo
 ```
+Cada clase incluye su propio `readme.md` con detalles específicos.
 
 ---
 
