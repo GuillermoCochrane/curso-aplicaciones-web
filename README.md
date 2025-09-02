@@ -55,7 +55,7 @@ cd clase_1/HelloWorld
 
 ## 🗂 Clases disponibles
 
-* [Clase 1 – Hello World con Aptugo](./clase_1/readme.md)
+* [Clase 1 – Hello World con Aptugo](./clase1/HelloWorld/README.md)
 * Clase 2 – (pendiente)
 * Clase 3 – (pendiente)
 
