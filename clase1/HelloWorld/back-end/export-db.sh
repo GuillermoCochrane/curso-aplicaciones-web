@@ -3,7 +3,7 @@ echo "======================================"
 echo "Exportando base de datos: helloworldapi"
 echo "======================================"
 
-mongodump --db helloworldapi --out ./db_dumps
+mongodump --db helloworldapi --out ../db_dumps
 
 if [ $? -ne 0 ]; then
   echo "[ERROR] Fallo el export de la base de datos."
