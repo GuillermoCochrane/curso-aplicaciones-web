@@ -1,0 +1,15 @@
+===== CARPETAS =====
+back-end
+config
+dist
+front-end
+node_modules
+Types
+
+===== ARCHIVOS =====
+.npmrc
+contenido.txt
+lista.bat
+package-lock.json
+package.json
+tsconfig.json
