@@ -22,7 +22,7 @@ Antes de ejecutar este proyecto, asegurate de tener instalado:
 - [Visual Studio Code](https://code.visualstudio.com/download) (opcional, recomendado)  
 
 
-👉 Para más detalles podés seguir la [Guía de Instalación oficial](../Guía%20de%20Instalación%20Aptugo%20Windows.pdf).
+👉 Para más detalles podés seguir la [Guía de Instalación oficial](https://github.com/GuillermoCochrane/curso-aplicaciones-web/blob/main/clase1/Gu%C3%ADa%20de%20Instalaci%C3%B3n%20Aptugo%20Windows.pdf).
 
 
 ### Instalación de Database Tools en Windows
@@ -143,7 +143,7 @@ seleccion/
 
 ## 📚 Material de referencia
 
-- [Guía de Estudio – Unidad Intro](../Unidad%20Intro%20y%20Aptugo%20-%20Guía%20de%20Estudio%20-%20Programación%20Web%20-%20App.pdf)
-- [Guía de Instalación Aptugo Windows](../Guía%20de%20Instalación%20Aptugo%20Windows.pdf)
+- [Guía de Estudio – Unidad Intro](https://github.com/GuillermoCochrane/curso-aplicaciones-web/blob/main/clase1/Unidad%20Intro%20y%20Aptugo%20-%20Gu%C3%ADa%20de%20Estudio%20-%20Programaci%C3%B3n%20Web%20-%20App.pdf)
+- [Guía de Instalación Aptugo Windows](https://github.com/GuillermoCochrane/curso-aplicaciones-web/blob/main/clase1/Gu%C3%ADa%20de%20Instalaci%C3%B3n%20Aptugo%20Windows.pdf)
 
 ---
