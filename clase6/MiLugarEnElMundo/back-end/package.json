@@ -7,7 +7,9 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "export-db": "node scripts/run-export.js",
+    "import-db": "node scripts/run-import.js"
   },
   "author": "Aptugo Builder",
   "dependencies": {
