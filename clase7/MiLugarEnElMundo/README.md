@@ -1,4 +1,4 @@
-# Clase 6 – Mi Lugar en el Mundo: Parte 2
+# Clase 7 – Mi Lugar en el Mundo: Parte 3
 
 Este proyecto fue generado con **Aptugo** y adaptado para quedar auto-contenido en este repositorio.
 

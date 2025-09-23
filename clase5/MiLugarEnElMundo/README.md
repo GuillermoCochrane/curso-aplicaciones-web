@@ -122,7 +122,7 @@ http://localhost:8080
 ## 📂 Estructura
 
 ```
-seleccion/
+MiLugarEnElMundo/
 ├── back-end/
 │   ├── scripts/
 │   │   ├── run-export.js
